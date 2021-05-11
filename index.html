@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Payment Information</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="apple-touch-icon" sizes="180x180" href="./favicon_io/android-chrome-192x192.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="./favicon_io/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="./favicon_io/favicon-16x16.png">
+    <link rel="manifest" href="/site.webmanifest">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;400&display=swap');
+    </style>
+</head>
+<body>
+
+<!-- ********************navigation menu************************** -->
+
+    <header class="header">
+        <div class="menu-tabs">
+            <ul class="tabs">
+                <li class="each-tab"><a href="#">TRIPS</a></li>
+                <li class="each-tab"><a href="#">RECENTLY VIEWED</a></li>
+                <li class="each-tab"><a href="#">BOOKINGS</a></li>
+                <img src="./img/My_github avatar.jpg" name="profile-pic"  alt="profile" />
+            </ul>
+        </div>
+    </header>
+
+<!-- *********************payment intro************************* -->
+
+
+<div class="payment-intro">
+    <div class="left-block">
+        <h2>Payment Information</h2>
+        <p>Choose your method of payment.</p>
+    </div>
+    <div class="right-block">
+        <span>
+            <img src="./img/visa.png" name="visa-card" alt="">
+            <img class="active-logo" src="./img/unknown.png" alt="">
+        </span>
+
+        <span>
+            <img class="paypal-logo" src="./img/Paypal.png" alt="">
+        </span>
+    </div>
+</div>
+
+
+<!-- ***************************card details************************ -->
+<section class="payment-section">
+    <div class="credit-card-logo">
+        <img src="./img/credit-card.png" name="credit-card"alt="">
+    </div>
+
+    <div class="input-space-wrapper">
+
+    <div class="half-stack">
+        <div class="first">
+            <p>Credit card number</p>
+            <input type="number" placeholder="4324 5433 9382 1030" name="credit-card-number">
+        </div>
+        <div class="second">
+            <p>Expiration date</p>
+            <input (type="date" placeholder="03/24" required name="Expiration-date")>
+        </div>
+    </div>
+
+    <div class="half-stack below">
+        <div class="first">
+            <p>Security code</p>
+            <input type="number" placeholder="420" name="security-code">
+        </div>
+        <div class="second">
+            <p>Postal Code</p>
+            <input type="number" placeholder="10119" name="postal-code">
+        </div>
+    </div>
+
+
+    <div class="click-radio">
+        <input  (name="save-card" checked type="radio")>
+        <label>Use this card for next time purchase</label>
+    </div>
+
+    <button class="save-card-button">Add card</button>
+
+    </div>
+</section>
+
+
+<!-- **************************cost breakdown********************* -->
+
+
+<section class="cost-breakdown">
+    <div class="cost-line">
+        <span>Subtotal</span>
+        <span class="digit">₦2,490.00</span>
+    </div>
+
+    <div class="cost-line">
+        <span>Estimated Tax</span>
+        <span class="digit">₦119.64</span>
+    </div>
+
+    <div class="cost-line last-line">
+        <span>
+            <span>Promotional Code:</span>
+            <span class="feint-code">Z4KXLM9A</span>
+        </span>
+        <span class="digit">₦-60.00</span>
+    </div>
+</section>
+
+
+<!-- *******************make payment and proceed****************** -->
+
+<div class="complete-order">
+    <button class="complete-button">Complete payment</button>
+    <span class="total-bill">
+        <span><strong>TOTAL:</strong></span>
+        <span><strong>₦2556.64</strong></span>
+    </span>
+</div>
+
+</body>
+</html>

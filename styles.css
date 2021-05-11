@@ -1,0 +1,236 @@
+/* *****************************UNIVERSAL STYLES********************************* */
+
+body{
+    background-color: #ffffff;
+    /* color: #353b50; */
+    color: #000000;
+    margin: 0px;
+    padding: 0px 14% 0px 14%;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+*{
+    box-sizing: border-box;
+}
+ul,li,h1,h2,h3,h4,h5,h6,p{
+    margin: 0px;
+    padding:0px;
+}
+
+a{
+    text-decoration: none;
+    color: #353b50;
+}
+
+
+/* *******************************header styles*********************** */
+.menu-tabs{
+    padding:30px 0px 65px 0px;
+    border-bottom: 2px #ecedef solid;
+    margin: 0px 70px 0px 45px;
+}
+
+
+.tabs{
+    display: flex;
+    list-style: none;
+    padding-left: 45%;
+    /* justify-content: flex-end; */
+}
+
+.tabs img{
+    width: 50px;
+    border-radius: 50%;
+    height: 50px;
+    position:relative;
+    left: 60px;
+    bottom: 7px;
+}
+
+
+
+
+.each-tab{
+    padding: 25px;
+    font-weight: 600;
+}
+
+/* ********************payment intro************************ */
+
+.payment-intro{
+    display: flex;
+    padding: 30px 0px 20px 0px;
+    margin: 0px 70px 0px 45px;
+    justify-content: space-between;
+}
+
+.left-block p{
+    font-size: 12px;
+    padding-top: 6px;
+    color: #aab0bb;
+}
+
+.left-block h2{
+    font-size: 20px;
+}
+
+.left-block{
+    max-width: 870px;
+}
+
+.active-logo{
+    padding-left: 10px;
+    position: relative;
+    top: 2px;
+}
+
+.paypal-logo{
+    padding-left: 20px;
+    position: relative;
+    left: 8px;
+}
+
+
+/* *******************card information******************** */
+
+.payment-section{
+    padding: 10px 50px 0px 45px;
+    display: flex;
+}
+
+.input-space-wrapper{
+    width: 50%;
+    padding-left: 15%;
+}
+
+.save-card-button{
+    width: 141%;
+    background-color: #3f67e9;
+    color: #ffffff;
+    height: 40px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-family: 'Poppins', sans-serif;
+}
+
+
+.credit-card-logo{
+    width: 35%;
+}
+
+.credit-card-logo img{
+    width: 100%;
+}
+
+.half-stack{
+    display: flex;
+}
+
+.half-stack p{
+    padding-bottom: 6px;
+    font-size: 12px;
+}
+
+.second{
+    padding-left: 16px;
+}
+
+.half-stack input{
+    width: 210px;
+    height: 30px;
+    background-color: #f0f1f3;
+    outline: none;
+    border: 2px solid #ecedef;
+    border-radius: 4px;
+    padding: 0px 20px;
+    font-size: 12px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.below{
+    padding-top: 30px;
+    padding-bottom: 10px;
+}
+
+.click-radio{
+    padding-bottom: 10px;
+}
+
+
+.click-radio label{
+    padding-left: 5px;
+    font-size: 12px;
+}
+
+.click-radio input{
+    margin: 10px 0px 0px 0px;
+    cursor: pointer;
+}
+
+
+/* **************cost breakdown******************* */
+
+.cost-breakdown{
+    /* padding:30px 0px 50px 0px; */
+    border-bottom: 2px #ecedef solid;
+    border-top: 2px #ecedef solid;
+    margin: 10px 80px 0px 45px;
+}
+
+.cost-line{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 25px;
+    font-weight: 800;
+    font-size: 14px;
+    color: #000000;
+}
+
+.feint-code{
+    /* color: #aab0bb; */
+    font-weight: 600;
+    opacity: .4;
+}
+
+.last-line{
+    padding-bottom: 30px;
+}
+
+.digit{
+    position: relative;
+    left: 10px;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+/* **********************complete order********************** */
+
+.complete-order{
+    display: flex;
+    justify-content: space-between;
+    margin: 0px 80px 0px 45px;
+    padding: 30px 0px 50px;
+}
+
+.complete-button{
+    background-color: #3f67e9;
+    color: #ffffff;
+    height: 40px;
+    width: 215px;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+}
+
+
+.total-bill{
+    font-weight: 900;
+    color: #000000;
+    font-size: 18px;
+    position: relative;
+    left: 18px;
+}
