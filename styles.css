@@ -24,6 +24,21 @@ a{
 }
 
 
+/* ******************************responsive******************************** */
+
+@media screen and (max-width:1050px){
+    body{
+        padding: 0px 8% 0px 8%
+    }
+}
+
+@media screen and (max-width:930px) {
+    body{
+        padding: 0px 1% 0px 1%;
+    }
+}
+
+
 /* *******************************header styles*********************** */
 .menu-tabs{
     padding:30px 0px 65px 0px;
@@ -36,7 +51,7 @@ a{
     display: flex;
     list-style: none;
     padding-left: 45%;
-    /* justify-content: flex-end; */
+    align-items: center;
 }
 
 .tabs img{
@@ -48,12 +63,74 @@ a{
     bottom: 7px;
 }
 
-
-
-
 .each-tab{
     padding: 25px;
     font-weight: 600;
+}
+
+/* ******************responsive styles************************ */
+
+@media screen and (max-width:1025px){
+    .tabs{
+        padding-left: 25%;
+    }
+}
+
+@media screen and (max-width:900px){
+    .tabs{
+        padding-left: 0;
+        justify-content: center;
+    }
+
+    .menu-tabs{
+        margin: 0px;
+        padding:30px 0px 50px 0px;
+    }
+
+    .tabs img{
+        left: 0;
+        bottom: 0;
+    }
+    .each-tab{
+        padding: 25px;
+        margin: 0px 10px 0px;
+        font-size: .9rem;
+    }
+}
+
+
+@media screen and (max-width:551px){
+    .tabs{
+        padding-left: 0;
+        justify-content: center;
+    }
+
+    .menu-tabs{
+        margin: 0px;
+        padding:20px 0px 45px 0px;
+    }
+
+    .tabs img{
+        left: 0;
+        bottom: 0;
+    }
+    .each-tab{
+        padding: 18px;
+        margin: 0px 3px 0px;
+        font-size: .7rem;
+    }
+}
+
+@media screen and (max-width:376px) {
+    .each-tab{
+        padding: 18px;
+        margin: 0px 2px 0px;
+        font-size: .7rem;
+    }
+
+    .menu-tabs{
+        padding:20px 0px 30px 0px;
+    }
 }
 
 /* ********************payment intro************************ */
@@ -92,6 +169,84 @@ a{
 }
 
 
+/* *************************responsive styles************************* */
+
+@media screen and (max-width:600px) {
+    .payment-intro{
+        margin: 0px 45px 0px 45px;
+    }
+
+    .left-block h2{
+        font-size: 1rem;
+    }
+
+    .left-block p{
+        font-size: .6rem;
+    }
+}
+
+@media screen and (max-width:416px) {
+    .payment-intro{
+        margin: 0px 20px 0px 20px;
+    }
+
+    .left-block h2{
+        font-size: 1rem;
+    }
+
+    .left-block p{
+        font-size: .6rem;
+    }
+
+    .paypal-logo{
+        padding-left: 10px;
+        position: relative;
+        left: 0px;
+    }
+}
+
+
+@media screen and (max-width:376px) {
+    .payment-intro{
+        margin: 0px 10px 0px 10px;
+    }
+
+    .left-block h2{
+        font-size: .9rem;
+    }
+
+    .left-block p{
+        font-size: .6rem;
+    }
+
+    .paypal-logo{
+        padding-left: 10px;
+        position: relative;
+        left: 0px;
+    }
+}
+
+@media screen and (max-width:323px) {
+    .payment-intro{
+        margin: 0px 5px 0px 5px;
+    }
+
+    .left-block h2{
+        font-size: .8rem;
+    }
+
+    .left-block p{
+        font-size: .5rem;
+    }
+
+    .paypal-logo{
+        padding-left: 5px;
+        position: relative;
+        left: 0px;
+    }
+}
+
+
 /* *******************card information******************** */
 
 .payment-section{
@@ -121,7 +276,7 @@ a{
 }
 
 .credit-card-logo img{
-    width: 100%;
+    width: 300px;
 }
 
 .half-stack{
@@ -170,10 +325,145 @@ a{
 }
 
 
+/* ******************responsive styles************************ */
+
+@media screen and (max-width:850px) {
+    .credit-card-logo img{
+        width: 250px;
+    }
+
+    .credit-card-logo{
+        width: 27%;
+    }
+}
+
+@media screen and (max-width:786px){
+    .half-stack input{
+        width: 180px;
+        height: 30px;
+    }
+}
+@media screen and (max-width:769px){
+
+    .credit-card-logo{
+        width: 200px;
+    }
+    .credit-card-logo img{
+        width: 200px;
+    }
+
+    .input-space-wrapper{
+        width: 50%;
+        padding-left: 8%;
+    }
+
+}
+
+@media screen and (max-width:705px) {
+    .half-stack{
+        display: block;
+    }
+
+    .payment-section{
+        padding: 10px 10px 0px 100px;
+        display: flex;
+    }
+
+    .second{
+        padding-left: 0px;
+    }
+
+    .below{
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+
+    .save-card-button{
+        width: 185px;
+    }
+
+    .fixed{
+        padding-top: 10px;
+    }
+}
+
+@media screen and (max-width:650px){
+    .payment-section{
+        padding: 10px 10px 0px 70px;
+    }
+}
+
+
+@media screen and (max-width:545px){
+    .payment-section{
+        padding: 10px 10px 0px 40px;
+    }
+}
+
+@media screen and (max-width:416px) {
+    .half-stack{
+        display: block;
+    }
+
+    .credit-card-logo img{
+        width: 170px;
+    }
+
+    .payment-section{
+        padding: 10px 10px 0px 10px;
+        display: flex;
+    }
+
+    .input-space-wrapper{
+        width: 80%;
+        padding-left: 5%;
+    }
+
+    .second{
+        padding-left: 0px;
+    }
+
+    .below{
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+
+    .fixed{
+        padding-top: 10px;
+    }
+}
+
+
+@media screen and (max-width:378px){
+    .half-stack input{
+        width: 150px;
+        height: 30px;
+    }
+
+    .save-card-button{
+        width: 150px;
+    }
+}
+
+@media screen and (max-width:325px){
+    .half-stack input{
+        width: 130px;
+        height: 30px;
+    }
+
+    .save-card-button{
+        width: 130px;
+    }
+
+    .credit-card-logo img{
+        width: 150px;
+    }
+}
+
+
 /* **************cost breakdown******************* */
 
 .cost-breakdown{
-    /* padding:30px 0px 50px 0px; */
     border-bottom: 2px #ecedef solid;
     border-top: 2px #ecedef solid;
     margin: 10px 80px 0px 45px;
@@ -205,6 +495,29 @@ a{
     font-weight: 600;
 }
 
+
+@media screen and (max-width:1285px){
+    .cost-breakdown{
+        border-bottom: 2px #ecedef solid;
+        border-top: 2px #ecedef solid;
+        margin: 10px 45px 0px 45px;
+    }
+}
+
+@media screen and (max-width:504px){
+    .cost-breakdown{
+        border-bottom: 2px #ecedef solid;
+        border-top: 2px #ecedef solid;
+        margin: 10px 15px 0px 10px;
+    }
+}
+
+@media screen and (max-width:416px) {
+    .cost-line{
+        font-size: .8rem;
+    }
+}
+
 /* **********************complete order********************** */
 
 .complete-order{
@@ -233,4 +546,52 @@ a{
     font-size: 18px;
     position: relative;
     left: 18px;
+}
+
+
+/* *****************************responsive syles******************************* */
+
+@media screen and (max-width:1285px){
+    .complete-order{
+        display: flex;
+        justify-content: space-between;
+        margin: 0px 45px 0px 45px;
+        padding: 30px 0px 50px;
+    }
+}
+
+@media screen and (max-width:504px){
+    .complete-order{
+        display: flex;
+        justify-content: space-between;
+        margin: 0px 20px 0px 15px;
+        padding: 30px 0px 50px;
+    }
+
+    .complete-button{
+        height: 40px;
+        width: 180px;
+    }
+
+    .total-bill{
+        font-size: 1rem;
+    }
+}
+
+@media screen and (max-width:415px){
+    .complete-order{
+        display: flex;
+        justify-content: space-between;
+        margin: 0px 20px 0px 10px;
+        padding: 30px 0px 50px;
+    }
+
+    .complete-button{
+        height: 40px;
+        width: 130px;
+    }
+
+    .total-bill{
+        font-size: .8rem;
+    }
 }
